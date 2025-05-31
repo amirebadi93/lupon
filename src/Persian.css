@@ -12,7 +12,11 @@
 }
 @font-face {
   font-family: mell;
-  src: url(./assets/Fonts/Mellgatha.ttf);
+  src: url(./assets/Fonts/yekangatha.ttf);
+}
+@font-face {
+  font-family: yekan;
+  src: url(./assets/Fonts/iranyekanwebregular.woff) format("woff");
 }
 body {
   background-color: rgb(180, 91, 121);
@@ -24,12 +28,13 @@ body {
   display: flex;
 }
 .header {
+  display: flex;
   justify-content: space-between;
   margin: 0px 0px 10px;
   background-color: rgba(129, 88, 88, 0.8);
 }
 .cafe_name {
-  font-family: mell;
+  font-family: yekan;
   color: white;
   font-size: 3rem;
   margin-left: 30px;
@@ -49,12 +54,11 @@ body {
 .Menu_title {
   text-align: center;
   width: 100%;
-  font-size: 4rem;
-  font-family: pbold;
+  font-size: 3rem;
+  font-family: yekan;
   color: rgb(121, 68, 43);
   margin: 0 0 10px;
   border-bottom: solid rgb(121, 68, 43) 3px;
-  font-family: sweet;
 }
 .menu_items {
   background-color: white;
@@ -62,12 +66,12 @@ body {
   width: 90vw;
   margin: 30px auto;
   padding: 30px 10px;
-
 }
 .img {
   margin: 30px 10px;
   border-radius: 35px;
   text-align: center;
+  height: 50vw;
 }
 img {
   width: 90%;
@@ -83,21 +87,25 @@ img {
   padding: 10px;
   margin: 45px 0px 45px 0;
   border-bottom: 1px solid black;
+  font-family: yekan;
 }
 .item_description {
   font-size: 1rem;
   padding: 10px;
   margin: 45px 0px 45px 0;
+  font-family: yekan;
 }
 .item_Descr {
   font-size: 1.5rem;
   padding: 30px 10px 10px;
   margin: 20px 0px 20px 0;
+  font-family: yekan;
 }
 .caution {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 10px;
   margin: 0px 20px 20px 0px;
+  font-family: yekan;
 }
 .caution_icon {
   margin-right: 10px;
