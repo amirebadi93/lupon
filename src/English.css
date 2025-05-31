@@ -1,0 +1,291 @@
+@font-face {
+  font-family: pbold;
+  src: url(./assets/Fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: raleway;
+  src: url(./assets/Fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: sweet;
+  src: url(./assets/Fonts/SweetJosephine-pgeE1.ttf);
+}
+@font-face {
+  font-family: mell;
+  src: url(./assets/Fonts/Mellgatha.ttf);
+}
+body {
+  background-color: rgb(180, 91, 121);
+  box-sizing: border-box;
+  font-family: raleway !important;
+  margin: 0;
+}
+.flex {
+  display: flex;
+}
+.header {
+  justify-content: space-between;
+  margin: 0px 0px 10px;
+  background-color: rgba(129, 88, 88, 0.8);
+}
+.cafe_name {
+  font-family: mell;
+  color: white;
+  font-size: 3rem;
+  margin-left: 30px;
+}
+.menu {
+  padding: 10px;
+  /* width: 95vw; */
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+.menu_Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  margin: 50px 0;
+}
+.Menu_title {
+  text-align: center;
+  width: 100%;
+  font-size: 4rem;
+  font-family: pbold;
+  color: rgb(121, 68, 43);
+  margin: 0 0 10px;
+  /* border: 2px solid black; */
+  border-bottom: solid rgb(121, 68, 43) 3px;
+  /* width: 60vw; */
+  font-family: sweet;
+}
+.menu_items {
+  /* flex-direction: column;
+      justify-content: center;
+      align-items: center; */
+  background-color: white;
+  border-radius: 35px;
+  /* border: 7px solid rgba(87, 87, 87, 0.603); */
+  width: 90vw;
+  margin: 30px auto;
+  padding: 30px 10px;
+
+}
+.img {
+  /* width: 100%; */
+  margin: 30px 10px;
+  border-radius: 35px;
+  /* max-height: 40vw; */
+  text-align: center;
+}
+img {
+  width: 90%;
+  border-radius: 15px;
+  height: 50vw;
+  opacity: 0;
+}
+.item_text {
+  margin: 10px;
+}
+.item_title {
+  font-size: 2rem;
+  padding: 10px;
+  margin: 45px 0px 45px 0;
+  border-bottom: 1px solid black;
+}
+.item_description {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 45px 0px 45px 0;
+}
+.item_Descr {
+  font-size: 1.5rem;
+  padding: 30px 10px 10px;
+  margin: 20px 0px 20px 0;
+}
+.caution {
+  font-size: 1.5rem;
+  padding: 10px;
+  margin: 0px 20px 20px 0px;
+}
+.caution_icon {
+  margin-right: 10px;
+  color: rgb(199, 196, 0);
+}
+.Espresso {
+  background-image: url(./img/img/Espresso.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Macchiato {
+  background-image: url(./img/img/Macchiato.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Americano {
+  background-image: url(./img/img/Americano.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Cappuccino {
+  background-image: url(./img/img/Cappuccino.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.Cortado {
+  background-image: url(./img/img/Cortado.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Latte {
+  background-image: url(./img/img/Latte.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Mochaccino {
+  background-image: url(./img/img/Mochaccino.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.Kurdish {
+  background-image: url(./img/img/Kurdish.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.Flat_White {
+  background-image: url(./img/img/Flat_white.webp);
+  background-position: center;
+  background-size: cover;
+}
+.Lupon {
+  background-image: url(./img/img/Lupon.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Lotus {
+  background-image: url(./img/img/Lotus.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Peanut_Butter {
+  background-image: url(./img/img/Peanut.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Nutella {
+  background-image: url(./img/img/Nutella.jpg);
+  background-position: top;
+  background-size: cover;
+}
+.Milka {
+  background-image: url(./img/img/Milka.jpeg);
+  background-position: bottom;
+  background-size: cover;
+}
+.Vanilla {
+  background-image: url(./img/img/Vanilla.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Espresso_shake {
+  background-image: url(./img/img/Espressoshake.jpeg);
+  background-position: bottom;
+  background-size: cover;
+}
+.Saffron {
+  background-image: url(./img/img/SaffronRosewater.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Lupon_Smoothies {
+  background-image: url(./img/img/Lupon2.jpeg);
+  background-position: bottom left;
+  background-size: cover;
+}
+.Strawberry {
+  background-image: url(./img/img/Strawberry.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Watermelon {
+  background-image: url(./img/img/Watermelon.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Lemon_Strawberry {
+  background-image: url(./img/img/Lemon-Strawberry.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Watermelon_Strawberry {
+  background-image: url(./img/img/Watermelon-strawberry.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Mojito {
+  background-image: url(./img/img/Mojito.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Lemonade {
+  background-image: url(./img/img/Lemonade.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Lupon_Hot {
+  background-image: url(./img/img/Lupon-Hot.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Echium {
+  background-image: url(./img/img/Echium.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Chill {
+  background-image: url(./img/img/Chill.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Lemon_Quince {
+  background-image: url(./img/img/Lemonquince.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Ginger {
+  background-image: url(./img/img/Ginger.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Bitter_Orange {
+  background-image: url(./img/img/Bitter-Orange.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Fit_Herbal {
+  background-image: url(./img/img/fit.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Lahijan_Chai {
+  background-image: url(./img/img/Lahijan-chai.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Masala_Chai {
+  background-image: url(./img/img/Masala.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Matcha_Latte {
+  background-image: url(./img/img/MatchaLatte.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Hot_Chocolate {
+  background-image: url(img/img/Hot-Chocolate.jpeg);
+  background-position: center;
+  background-size: cover;
+}
