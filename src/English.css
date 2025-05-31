@@ -36,17 +36,14 @@ body {
 }
 .menu {
   padding: 10px;
-  /* width: 95vw; */
   justify-content: center;
   align-items: center;
-  /* border: 2px solid black; */
 }
 .menu_Section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid black; */
   margin: 50px 0;
 }
 .Menu_title {
@@ -56,28 +53,20 @@ body {
   font-family: pbold;
   color: rgb(121, 68, 43);
   margin: 0 0 10px;
-  /* border: 2px solid black; */
   border-bottom: solid rgb(121, 68, 43) 3px;
-  /* width: 60vw; */
   font-family: sweet;
 }
 .menu_items {
-  /* flex-direction: column;
-      justify-content: center;
-      align-items: center; */
   background-color: white;
   border-radius: 35px;
-  /* border: 7px solid rgba(87, 87, 87, 0.603); */
   width: 90vw;
   margin: 30px auto;
   padding: 30px 10px;
 
 }
 .img {
-  /* width: 100%; */
   margin: 30px 10px;
   border-radius: 35px;
-  /* max-height: 40vw; */
   text-align: center;
 }
 img {
