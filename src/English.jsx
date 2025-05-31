@@ -1,8 +1,8 @@
 import React from "react";
-
+import "./English.css";
 function English() {
   return (
-    <body>
+    <div className="body">
       <header>
         <div className="header flex">
           <div className="cafe_name">Lupon Cafe</div>
@@ -27,9 +27,7 @@ function English() {
             </div>
             <div className="item_text">
               <div className="item_title">Espresso Macchiato</div>
-              <div className="item_Descr">
-                Double Shot Espresso + Milk Foam
-              </div>
+              <div className="item_Descr">Double Shot Espresso + Milk Foam</div>
             </div>
           </div>
 
@@ -49,9 +47,7 @@ function English() {
             </div>
             <div className="item_text">
               <div className="item_title">Americano</div>
-              <div className="item_Descr">
-                Double Shot Espresso + Hot Water
-              </div>
+              <div className="item_Descr">Double Shot Espresso + Hot Water</div>
             </div>
           </div>
 
@@ -325,9 +321,7 @@ function English() {
             </div>
             <div className="item_text">
               <div className="item_title">Lemon Quince</div>
-              <div className="item_Descr">
-                Double Shot Espresso + Hot Water
-              </div>
+              <div className="item_Descr">Double Shot Espresso + Hot Water</div>
             </div>
           </div>
 
@@ -402,7 +396,7 @@ function English() {
           </div>
         </div>
       </main>
-    </body>
+    </div>
   );
 }
 

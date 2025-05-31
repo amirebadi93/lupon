@@ -14,7 +14,7 @@
   font-family: mell;
   src: url(./assets/Fonts/Mellgatha.ttf);
 }
-.body {
+body {
   background-color: rgb(180, 91, 121);
   box-sizing: border-box;
   font-family: raleway !important;
