@@ -14,10 +14,18 @@
   font-family: mell;
   src: url(./assets/Fonts/Mellgatha.ttf);
 }
+body{
+  margin: 0;
+}
+.english{
+  font-family: raleway !important;
+}
+.persian{
+  font-family: yekan;
+}
 .body {
   background-color: rgb(180, 91, 121);
   box-sizing: border-box;
-  font-family: raleway !important;
   margin: 0;
 }
 .flex {
@@ -34,12 +42,12 @@
   font-size: 3rem;
   margin-left: 30px;
 }
-.menu {
+.Menu {
   padding: 10px;
   justify-content: center;
   align-items: center;
 }
-.menu_Section {
+.Menu_section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,7 +64,7 @@
   border-bottom: solid rgb(121, 68, 43) 3px;
   font-family: sweet;
 }
-.menu_items {
+.Menu_item {
   background-color: white;
   border-radius: 35px;
   width: 90vw;
@@ -69,7 +77,7 @@
   border-radius: 35px;
   text-align: center;
 }
-img {
+.imgtag {
   width: 90%;
   border-radius: 15px;
   height: 50vw;

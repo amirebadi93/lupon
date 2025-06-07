@@ -2,7 +2,7 @@ import React from "react";
 import "./English.css";
 function English() {
   return (
-    <div className="body">
+    <div className="body english">
       <header>
         <div className="header flex">
           <div className="cafe_name">Lupon Cafe</div>
@@ -12,18 +12,18 @@ function English() {
       <main className="Menu">
         <div className="Menu_section">
           <h1 className="Menu_title">Coffee</h1>
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Espresso">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Espresso</div>
               <div className="item_Descr">Double Shot / SingleShot</div>
             </div>
           </div>
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Macchiato">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Espresso Macchiato</div>
@@ -31,9 +31,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Flat_White">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Flat White</div>
@@ -41,9 +41,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Americano">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Americano</div>
@@ -51,9 +51,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Cappuccino">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Cappuccino</div>
@@ -61,9 +61,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Cortado">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Cortado</div>
@@ -71,9 +71,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Latte">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Latte</div>
@@ -81,9 +81,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Mochaccino">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Mochaccino</div>
@@ -93,9 +93,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Kurdish">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Kurdish Coffee</div>
@@ -106,18 +106,18 @@ function English() {
 
         <div className="Menu_section">
           <h1 className="Menu_title">Shakes</h1>
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Lupon">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Lupon</div>
               <div className="item_Descr">Luppon Special Shake</div>
             </div>
           </div>
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Lotus">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Lotus Shake</div>
@@ -125,9 +125,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Peanut_Butter">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Peanut Butter Shake</div>
@@ -139,9 +139,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Nutella">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Nutella Shake</div>
@@ -149,9 +149,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Milka">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Milka Shake</div>
@@ -159,9 +159,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Vanilla">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Vanilla Shake</div>
@@ -171,9 +171,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Espresso_shake">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Espresso Shake</div>
@@ -181,9 +181,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Saffron">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Saffron Rosewater Shake</div>
@@ -194,18 +194,18 @@ function English() {
 
         <div className="Menu_section">
           <h1 className="Menu_title">Smoothies</h1>
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Lupon_Smoothies">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Lupon Smoothie</div>
               <div className="item_Descr">Lupon Special Smoothie</div>
             </div>
           </div>
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Strawberry">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Strawberry</div>
@@ -214,9 +214,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Watermelon">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Watermelon</div>
@@ -225,9 +225,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Lemon_Strawberry">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Lemon Strawberry</div>
@@ -236,9 +236,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Watermelon_Strawberry">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Watermelon Strawberry</div>
@@ -247,9 +247,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Mojito">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Mojito</div>
@@ -257,9 +257,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Lemonade">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Lemonade</div>
@@ -267,9 +267,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Lemonade">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Ginger Lemonade</div>
@@ -286,18 +286,18 @@ function English() {
 
         <div className="Menu_section">
           <h1 className="Menu_title">Hot Drinks</h1>
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Lupon_Hot">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Lupon Special</div>
               <div className="item_Descr">Lupon Special</div>
             </div>
           </div>
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Echium">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Echium Herbal Drinks</div>
@@ -305,9 +305,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Chill">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Chill</div>
@@ -315,9 +315,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Lemon_Quince">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Lemon Quince</div>
@@ -325,9 +325,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Ginger">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Ginger</div>
@@ -335,9 +335,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Bitter_Orange">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Bitter orange</div>
@@ -345,9 +345,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Fit_Herbal">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Fit Herbal</div>
@@ -355,9 +355,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Lahijan_Chai">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Lahijan Chai</div>
@@ -365,9 +365,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Masala_Chai">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Masala Chai</div>
@@ -375,9 +375,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Matcha_Latte">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Matcha Latte</div>
@@ -385,9 +385,9 @@ function English() {
             </div>
           </div>
 
-          <div className="menu_items">
+          <div className="Menu_item">
             <div className="img Hot_Chocolate">
-              <img src="./Styles/img/img/Espresso.jpg" alt="" className="" />
+              <img src="./img/img/Espresso.jpg" alt="" className="imgtag" />
             </div>
             <div className="item_text">
               <div className="item_title">Hot Chocolate</div>

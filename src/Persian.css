@@ -14,11 +14,22 @@
   font-family: mell;
   src: url(./assets/Fonts/Mellgatha.ttf);
 }
-body {
+@font-face {
+  font-family: yekan;
+  src: url(./assets/Fonts/iranyekanwebregular.woff) format("woff");
+}
+
+body{
+  margin: 0;
+}
+.body {
   background-color: rgb(180, 91, 121);
   box-sizing: border-box;
-  font-family: raleway !important;
+  /* font-family: raleway !important; */
   margin: 0;
+}
+.persian, .yekan{
+  font-family: yekan;
 }
 .flex {
   display: flex;
@@ -29,7 +40,7 @@ body {
   background-color: rgba(129, 88, 88, 0.8);
 }
 .cafe_name {
-  font-family: mell;
+  /* font-family: mell; */
   color: white;
   font-size: 3rem;
   margin-left: 30px;
@@ -50,11 +61,11 @@ body {
   text-align: center;
   width: 100%;
   font-size: 4rem;
-  font-family: pbold;
+  /* font-family: pbold; */
   color: rgb(121, 68, 43);
   margin: 0 0 10px;
   border-bottom: solid rgb(121, 68, 43) 3px;
-  font-family: sweet;
+  /* font-family: sweet; */
 }
 .menu_items {
   background-color: white;
@@ -68,8 +79,9 @@ body {
   margin: 30px 10px;
   border-radius: 35px;
   text-align: center;
+  height: 50vw;
 }
-img {
+.imgtag {
   width: 90%;
   border-radius: 15px;
   height: 50vw;
@@ -274,7 +286,7 @@ img {
   background-size: cover;
 }
 .Hot_Chocolate {
-  background-image: url(img/img/Hot-Chocolate.jpeg);
+  background-image: url(./img/img/Hot-Chocolate.jpeg);
   background-position: center;
   background-size: cover;
 }

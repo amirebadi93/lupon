@@ -1,0 +1,111 @@
+@font-face {
+    font-family: pbold;
+    src: url(./assets/Fonts/Poppins/Poppins-Light.ttf);
+  }
+  @font-face {
+    font-family: raleway;
+    src: url(./assets/Fonts/Raleway/Raleway-VariableFont_wght.ttf);
+  }
+  @font-face {
+    font-family: sweet;
+    src: url(./assets/Fonts/SweetJosephine-pgeE1.ttf);
+  }
+  @font-face {
+    font-family: mell;
+    src: url(./assets/Fonts/Mellgatha.ttf);
+  }
+  @font-face {
+    font-family: yekan;
+    src: url(./assets/Fonts/iranyekanwebregular.woff) format('.woff');
+  }
+  .flex {
+    display: flex;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .yekan{
+    font-family: yekan;
+  }
+  .pbold{
+    font-family: pbold;
+  }
+
+  /* .container {
+    background-image: url(./img/img/Welcome.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backdrop-filter: blur(10px);
+    z-index: -100;
+  } */
+  
+  .bg-img {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+  }
+  .welcome {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* padding: 20px 10px; */
+  }
+  .lang {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lang-title {
+    font-family: sweet;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+  }
+  .btns {
+  }
+  .btns {
+    justify-content: center;
+    gap: 50px;
+    width: 60vw;
+  }
+  .btns button {
+    border-radius: 10px;
+    /* width: 40%; */
+    border: solid white 1px;
+    padding: 10px;
+    font-family: raleway;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 0 20px;
+  }
+  button.btn-farsi{
+    font-family: yekan;
+  }
+  button.btns-english{
+  
+      font-family: pbold;
+  }
+  .btns button:hover {
+    transition-duration: 0.7s;
+    transform: scale(1.1);
+  }
+   .btns button.btns-farsi{
+      font-family: yekan;
+  }
+  
